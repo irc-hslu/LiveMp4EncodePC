@@ -1,0 +1,13 @@
+{
+  "name": "vpcclive-web-relay",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "relay": "node relay-server.js --udp-port 8890 --preview-udp-port 8891 --ws-port 8081",
+    "serve": "npx --yes serve .. -l 8080"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
